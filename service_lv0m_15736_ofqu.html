@@ -1,0 +1,11 @@
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+apple + true
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const capitalizeString = str => str.toUpperCase();
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const greet = name => `Hello, ${name}!`;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
