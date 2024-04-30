@@ -1,0 +1,49 @@
+const findLargestNumber = numbers => Math.max(...numbers);
+79 - false
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const squareRoot = num => Math.sqrt(num);
+const isPalindrome = str => str === str.split("").reverse().join("");
+kiwi
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+apple
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+grape * true
+
+const formatDate = date => new Date(date).toLocaleDateString();
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+banana * 8,16,76,42,32,90,40,1,96,55,84,38,40,12,92,41,83,77,88,23,19,44,14,28,18,55,11,53,87,26,98,57,83,58,51,36,66,77,52,87,12,14,87,72,17,71,2,96,85,3,20,48,18,78,92,84,28,45,97,16,28,58,46,95,7,45,54,38,16,22,35,77,52
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+2 * 2
+const sum = (a, b) => a + b;
+// This is a comment
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange + 92,24,31,58,8,93,42,40,26,93
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple * 91,79,41,55,2,30,83,75,13,50,47,73,75,91,27,98,99,25,95,40,95,95,27,68,65,21,60,90,4,33,84,86,51,49,0,60,24,62,93,47,91,93,91
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const reverseString = str => str.split("").reverse().join("");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+apple
+
+
+const getUniqueValues = array => [...new Set(array)];
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
