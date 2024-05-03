@@ -1,0 +1,64 @@
+3 - 14
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+6 + apple
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+grape
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+66 + 58
+const findSmallestNumber = numbers => Math.min(...numbers);
+const reverseString = str => str.split("").reverse().join("");
+
+true / kiwi
+const squareRoot = num => Math.sqrt(num);
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+grape
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const greet = name => `Hello, ${name}!`;
+const getRandomSubset = (array, size) => array.slice(0, size);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+banana
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+grape - false
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const reverseString = str => str.split("").reverse().join("");
+const reverseString = str => str.split("").reverse().join("");
+59,70,11,16,84,84,81,45,9,37,95,68,99,71,18,15,34,73,43,79,30,58,3,93,40,40,66,30,96,44,55,65,22,72,36,34,75,33,96,62,4,29,82,78,82,50,38,35,48,12,71,6,98,12,77,95,93,61,94,58,12,48,44,36,48,67,24,53,93,34,56,22,90,32,24,81 + false
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getUniqueValues = array => [...new Set(array)];
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+false / 75
+const greet = name => `Hello, ${name}!`;
+apple
+
+const reverseString = str => str.split("").reverse().join("");
+false - 64
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana
+
+const squareRoot = num => Math.sqrt(num);
+const greet = name => `Hello, ${name}!`;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+false - kiwi
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const formatDate = date => new Date(date).toLocaleDateString();
